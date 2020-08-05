@@ -4,7 +4,11 @@
 int main(){
 
   int i, a, b=0, c=0;
-
+  char name[10];
+  
+  printf("Who are you?\n>");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   printf("Tossing a coin...\n");
 
   for(i=0;i<3;i++){
