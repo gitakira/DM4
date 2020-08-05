@@ -23,7 +23,7 @@ int main(){
     }
   }
     printf("Heads: %d, Tails: %d\n",b, c);
-  　if(b>c) printf("You won\n");
-    else printf("You lost\n");
+  　if(b>c) printf("%s won\n",name);
+    else printf("%s lost\n",name);
   return 0;
 }
